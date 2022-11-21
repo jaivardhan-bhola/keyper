@@ -44,9 +44,7 @@ pip install -r requirements.txt
 
 
 # Usage
-```
-python keyper.pyw
-```
+![Usage](https://github.com/jaivardhan-bhola/keyper/blob/main/assets/Keyper_Usage_Instructions.png)
 # Screenshots
 ![screenshot](https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper1.png)![screenshot](https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper2.png)![screenshot](https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper3.png)![screenshot](https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper4.png)
 
