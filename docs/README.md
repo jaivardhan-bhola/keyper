@@ -47,7 +47,7 @@ pip install -r requirements.txt
 <img src ='https://github.com/jaivardhan-bhola/keyper/blob/main/assets/Keyper_Usage_Instructions.png?raw=true'/>
 
 # Screenshots
-<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyer1.png?raw=true"/>
+<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper1.png?raw=true"/>
 <img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper2.png?raw=true"/>
 <img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper3.png?raw=true"/>
 <img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper4.png?raw=true"/>
