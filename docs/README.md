@@ -44,9 +44,12 @@ pip install -r requirements.txt
 
 
 # Usage
-![Usage](https://github.com/jaivardhan-bhola/keyper/blob/main/assets/Keyper_Usage_Instructions.png)
+<img src = "https://github.com/jaivardhan-bhola/keyper/blob/main/assets/Keyper_Usage_Instructions.png"/>
 # Screenshots
-![screenshot](https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper1.png)![screenshot](https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper2.png)![screenshot](https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper3.png)![screenshot](https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper4.png)
+<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper1.png"/>
+<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper2.png"/>
+<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper3.png"/>
+<img src ="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper4.png"/>
 
 # About-the-author
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaivardhan-bhola)
