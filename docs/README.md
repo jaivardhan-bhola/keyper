@@ -44,12 +44,13 @@ pip install -r requirements.txt
 
 
 # Usage
-<img src = "https://github.com/jaivardhan-bhola/keyper/blob/main/assets/Keyper_Usage_Instructions.png"/>
+<img src ='https://github.com/jaivardhan-bhola/keyper/blob/main/assets/Keyper_Usage_Instructions.png?raw=true'/>
+
 # Screenshots
-<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper1.png"/>
-<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper2.png"/>
-<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper3.png"/>
-<img src ="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper4.png"/>
+<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyer1.png?raw=true"/>
+<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper2.png?raw=true"/>
+<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper3.png?raw=true"/>
+<img src="https://github.com/jaivardhan-bhola/keyper/blob/main/screenshots/Keyper4.png?raw=true"/>
 
 # About-the-author
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaivardhan-bhola)
