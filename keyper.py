@@ -668,46 +668,47 @@ def homeScreen():
                 fg=color["orange2"],
                 font=("Inter Bold", 12),
             )
-            lbl.place(x=360, y=25)
-            lbl1 = Label(
-                frame2,
-                text=entry[i][1],
-                font=("Inter Bold", 12),
-                bg=color["black2"],
-                fg=color["blue1"],
-            )
-            lbl1.place(x=50, y=65 + (i * 40))
-            lbl1.configure(anchor=CENTER)
-            lbl2 = Label(
-                frame2,
-                text=(decrypt(entry[i][2], encryptionKey)),
-                font=("Inter Bold", 12),
-                bg=color["black2"],
-                fg=color["purple2"],
-            )
-            lbl2.place(x=205, y=65 + (i * 40))
-            lbl2.configure(anchor=CENTER)
-            lbl3 = Label(
-                frame2,
-                text=(decrypt(entry[i][3], encryptionKey)),
-                font=("Inter Bold", 12),
-                bg=color["black2"],
-                fg=color["orange2"],
-            )
-            lbl3.place(x=360, y=65 + (i * 40))
-            lbl3.configure(anchor=CENTER)
-            btn = CTkButton(
-                text="Delete",
-                command=partial(removeEntry, entry[i][0]),
-                corner_radius=4,
-                text_color=color["red2"],
-                fg_color=color["black2"],
-                text_font=("Inter Bold", 12),
-                bg_color=color["black2"],
-                width=65,
-                hover=None,
-                master=frame2,
-            )
+            for i in range(len(entry)):
+                lbl = Label(
+                    frame2,
+                    text=entry[i][1],
+                    font=("Inter Bold", 12),
+                    bg=color["black2"],
+                    fg=color["blue1"],
+                )
+                lbl.place(x=50, y=65 + (i * 40))
+                lbl.configure(anchor=CENTER)
+                lbl2 = Label(
+                    frame2,
+                    text=(decrypt(entry[i][2], encryptionKey)),
+                    font=("Inter Bold", 12),
+                    bg=color["black2"],
+                    fg=color["purple2"],
+                )
+                lbl2.place(x=205, y=65 + (i * 40))
+                lbl2.configure(anchor=CENTER)
+                lbl3 = Label(
+                    frame2,
+                    text=(decrypt(entry[i][3], encryptionKey)),
+                    font=("Inter Bold", 12),
+                    bg=color["black2"],
+                    fg=color["orange2"],
+                )
+                lbl3.place(x=360, y=65 + (i * 40))
+                lbl3.configure(anchor=CENTER)
+                btn = CTkButton(
+                    text="Remove",
+                    command=lambda i=i: removeEntry(entry[i][0]),
+                    corner_radius=4,
+                    text_color=color["black1"],
+                    fg_color=color["red1"],
+                    hover_color=color["purple1"],
+                    text_font=("Inter Bold", 12),
+                    bg_color=color["black2"],
+                    width=95,
+                    master=frame2,
+                )
+                btn.place(x=450, y=65 + (i * 40))
             btn2 = CTkButton(
                 text="Exit",
                 command=exit_view,
@@ -720,9 +721,7 @@ def homeScreen():
                 master=frame2,
                 text_font=("Inter", 25),
             )
-            btn.place(x=490, y=65 + (i * 40))
             btn2.place(x=35, y=290)
-            i += 1
 
     searchicon = CTkButton(
         master=frame,
