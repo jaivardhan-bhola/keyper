@@ -737,7 +737,6 @@ def homeScreen():
     )
     searchicon.place(x=410, y=167)
 
-
 cursor.execute("SELECT * FROM masterpassword")
 if cursor.fetchall():
     loginScreen()
